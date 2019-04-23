@@ -12,6 +12,9 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@babel/core": "^7.4.3",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.5",
     "clean-webpack-plugin": "^2.0.1",
     "copy-webpack-plugin": "^5.0.2",
     "css-loader": "^2.1.1",
@@ -26,6 +29,8 @@
   },
   "dependencies": {
     "jquery": "^3.4.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
     "vue": "^2.6.10"
   }
 }

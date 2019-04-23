@@ -1,23 +1,7 @@
-import Vue from 'vue';
+import React from 'react';
+import ReactDOM from 'react-dom';
 
-new Vue({
-  el:'#app',
-
-  template:`
-    <div>hello react</div>
-  `
-})
-
-
-
-
-// import $ from 'jquery';
-// import '@/assets/common/style.less';
-
-// $('body').append($('<div>hello</div>'));
-// $('body').append($('<div>hello word</div>'));
-// $('body').append($('<div>react</div>'));
-
-
-
-
+ReactDOM.render(
+  <h1>hello react</h1>,
+  document.getElementById('app')
+)
